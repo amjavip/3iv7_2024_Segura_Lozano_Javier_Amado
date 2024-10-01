@@ -1,12 +1,15 @@
 Algoritmo LaVidaDeLasPersonas
 	//Variables
-	Definir NumeroPersonas, AñosAConsultar, TPersonasVivas, EdadJoven, EdadVieja, Edad, i, x, l, z Como Entero
+	Definir NumeroPersonas, AñosAConsultar, TPersonasVivas, EdadJoven, EdadVieja, Edad, i, x, l, z Como Entero 
 	//Limpiar las Variables
 	NumeroPersonas <- 0
 	TPersonasVivas <- 0
 	//Meter la lista de personas dadas por el profe
 	Escribir "Ingresa el numero del personas de la lista"
 	Leer NumeroPersonas
+	Si NumeroPersonas < 0 Entonces
+		Escribir "No puedes tener valores negativos"
+	FinSi
 	//Crear arreglitos
 	Dimension AñoNacimiento[NumeroPersonas]
 	Dimension AñoFallecimiento[NumeroPersonas]
