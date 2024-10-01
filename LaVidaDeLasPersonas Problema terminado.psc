@@ -5,6 +5,8 @@ Algoritmo LaVidaDeLasPersonas
 	NumeroPersonas <- 0
 	TPersonasVivas <- 0
 	//Meter la lista de personas dadas por el profe
+	Escribir "Escribe el año actual"
+	Leer AñoActual
 	Escribir "Ingresa el numero del personas de la lista"
 	Leer NumeroPersonas
 	Si NumeroPersonas < 0 Entonces
@@ -19,8 +21,8 @@ Algoritmo LaVidaDeLasPersonas
 		Leer AñoNacimiento[i]
 		Escribir "Ingresa el año de fallecimiento de la persona numero ", i
 		Leer AñoFallecimiento[i]
-		Si AñoFallecimiento[i] - AñoNacimiento[i] < 0 Entonces
-			Escribir "La persona no puede morir antes de nacer"
+		Si AñoFallecimiento[i] - AñoNacimiento[i] < 0  o AñoFallecimiento[i] > AñoActual o AñoNacimiento[i] > AñoActual Entonces
+			Escribir "La persona no puede morir antes de nacer ni haber nacido o morir en una fecha mayor a la actual"
 		FinSi
 	Fin Para
 	//Años a consultar para la lista dada
@@ -33,6 +35,9 @@ Algoritmo LaVidaDeLasPersonas
 		Para X <- 1 Hasta AñosAConsultar Con Paso 1 Hacer
 			Escribir "¿De que año desea conocer los datos?"
 			Leer AñoIngresado[X]
+			Si AñoIngresado[X] > AñoActual Entonces
+				Escribir "El año a consultar no puede ser mayor al actual"
+			FinSi
 		FinPara
 		Para l <- 1 Hasta AñosAConsultar Con Paso 1 Hacer
 				TPersonasVivas <- 0
