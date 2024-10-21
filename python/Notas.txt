@@ -1,0 +1,7 @@
+Es un lenguaje de programacion multiparadigma (Puede importar diferentes modos de prograacion)
+Ejemplos:
+Programacion iterativa
+Programacion orientada a objetos
+Programacion funcional (Crear funciones, lo que vamos a hacer)
+Python es multiplataforma (Tiene sosporte en window, IOS, linux)
+Es fuertemente tipado (Significa: debemos conocer el tipo de )
