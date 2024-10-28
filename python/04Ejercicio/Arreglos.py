@@ -8,7 +8,7 @@ def sumar_arreglos(arreglo1, arreglo2):
         for i in range(len(arreglo1)):
             suma.append(arreglo1[i]+arreglo2[i])
             #.append sirve para agregar agregar a la posicion siguiente ,es decir i + 1
-            return suma
+        return suma
 #programa principal
 arreglo1 = []
 arreglo2 = []
