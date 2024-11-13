@@ -1,0 +1,12 @@
+[
+    {
+        "Nombre": "Gu\u00eda",
+        "Funci\u00f3n": "dar informacio de ciertos materiales en el juego",
+        "Zona de aparici\u00f3n": "Punto de reaparicion del jugardor al iniciar partida / casa predeterminada por el jugador",
+        "Bioma favorito": "Bosque",
+        "Condiciones": "Desbes haer ya iniciado un mundo/semilla en el juego",
+        "Objetos que vende": "Ninguno",
+        "Descripci\u00f3n": "Fiel acompa\u00f1ante y gran informante",
+        "Importancia": "Alta: es necesario que este vivo para entrar al modo dificil en el juego"
+    }
+]
